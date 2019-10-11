@@ -1,8 +1,11 @@
 package abcd;
 import java.io.Console;
 import java.lang.*;
+import java.util.Random;
 
 public class Madhu {
+	
+	
 	public int Madhuk(int a) {
 		
 		
@@ -20,6 +23,9 @@ public class Madhu {
 	}
 	
 public static void main(String[]args) {
+	Random rand =new Random();
+	int ran=rand.nextInt((99999-10001)+1)+10001;
+	System.out.println(ran);
 		int m =10;
 		m=++m;
 		
